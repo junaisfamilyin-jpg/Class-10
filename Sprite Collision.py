@@ -87,3 +87,5 @@ FONT_SIZE = 72
 pygame.init()
 
 backround_image = pygame.transform.scale(pygame.image.load("ap3.jpg"), SCREEN_HEIGHT, SCREEN_WIDTH)
+
+font = pygame.font.SysFont("Times New Roman", FONT_SIZE)
